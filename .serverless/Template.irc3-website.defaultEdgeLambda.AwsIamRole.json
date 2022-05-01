@@ -1,0 +1,25 @@
+{
+  "name": "rx5iwoq-9ngfude",
+  "arn": "arn:aws:iam::286136663550:role/rx5iwoq-9ngfude",
+  "service": ["lambda.amazonaws.com", "edgelambda.amazonaws.com"],
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Resource": "*",
+        "Action": [
+          "logs:CreateLogGroup",
+          "logs:CreateLogStream",
+          "logs:PutLogEvents"
+        ]
+      },
+      {
+        "Effect": "Allow",
+        "Resource": "arn:aws:s3:::rx5iwoq-66vqzm/*",
+        "Action": ["s3:GetObject", "s3:PutObject"]
+      }
+    ]
+  },
+  "region": "us-east-1"
+}
