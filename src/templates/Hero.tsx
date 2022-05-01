@@ -34,7 +34,7 @@ const Hero = () => (
         }
         description="端到端即时通讯，无需服务端."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://docs.irc3.io">
             <a>
               <Button xl>查看文档</Button>
             </a>
