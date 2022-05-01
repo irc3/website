@@ -3,27 +3,27 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="IRC3 = IRC + Web3"
+    description="去中心化无服务器的即时通讯协议，支持 IRC 中的大部分指令"
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="支持 ENS 域名"
+      description="绑定 ENS 域名作为认证昵称"
+      image="/assets/images/ens.png"
+      imageAlt="支持 ENS 域名"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="P2P"
+      description="端到端通讯，保护隐私"
+      image="/assets/images/p2p.png"
+      imageAlt="p2p 通讯"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="类 IRC"
+      description="随意切换马甲，支持私聊和频道聊天"
+      image="/assets/images/irc.png"
+      imageAlt="irc 协议"
     />
   </Section>
 );
