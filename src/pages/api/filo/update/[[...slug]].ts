@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
   res.status(200).json({
-    url: 'https://github.com/irc3/filo/releases/download/v0.1.1/filo_0.1.1_x64.dmg',
+    url: 'https://github.com/irc3/filo/releases/download/v0.1.1/filo.app.tar.gz',
     version: 'v0.1.1',
     notes: 'Theses are some release notes',
     pub_date: '2022-05-25T12:29:53+01:00',
